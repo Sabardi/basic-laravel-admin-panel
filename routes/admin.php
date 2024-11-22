@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Middleware\HasAccessAdmin;
+use Illuminate\Routing\Route;
 
 Route::group([
     'namespace' => 'App\Http\Controllers\Admin',
